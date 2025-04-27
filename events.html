@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events | Beyond The Breath</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="events.css" />
+  </head>
+  <body class="font-sans antialiased text-gray-800">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/80 backdrop-blur z-50 shadow">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <img
+          src="images/beyondabreath.png"
+          alt="Beyond The Breath Logo"
+          class="h-16 w-auto"
+        />
+        <nav class="space-x-6 hidden md:flex">
+          <a href="index.html" class="hover:text-teal-600">Home</a>
+          <a href="about.html" class="hover:text-teal-600">About</a>
+          <a href="services.html" class="hover:text-teal-600">Services</a>
+          <a href="events.html" class="font-semibold text-teal-600">Events</a>
+          <a href="contact.html" class="hover:text-teal-600">Contact</a>
+        </nav>
+        <button class="md:hidden" aria-label="Toggle menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="pt-20">
+      <!-- Events Hero -->
+      <section class="bg-gray-50 py-16 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+          <h1 class="text-4xl md:text-5xl font-bold">
+            Upcoming Events & Workshops
+          </h1>
+          <p class="mt-4 text-lg text-gray-600">
+            Join us for transformative breathwork sessions designed to heal,
+            energize, and restore.
+          </p>
+        </div>
+      </section>
+
+      <!-- Event Listings -->
+      <section class="py-16 bg-white">
+        <div
+          class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8"
+        >
+          <!-- Event Card 1 -->
+          <div class="border rounded-lg p-6 hover:shadow-lg">
+            <p class="text-sm text-teal-500 font-semibold">
+              May 10, 2025 &bull; 7:00 PM
+            </p>
+            <h3 class="mt-2 text-xl font-medium">Full Moon Breathwork</h3>
+            <p class="mt-2 text-gray-600">
+              An immersive session under the full moon to release and renew your
+              energy.
+            </p>
+            <a href="#" class="mt-4 inline-block text-teal-500 hover:underline"
+              >Book Now &rarr;</a
+            >
+          </div>
+          <!-- Event Card 2 -->
+          <div class="border rounded-lg p-6 hover:shadow-lg">
+            <p class="text-sm text-teal-500 font-semibold">
+              June 15, 2025 &bull; 10:00 AM
+            </p>
+            <h3 class="mt-2 text-xl font-medium">Summer Solstice Retreat</h3>
+            <p class="mt-2 text-gray-600">
+              A day-long retreat focused on deep breathing, guided meditation,
+              and sound healing.
+            </p>
+            <a href="#" class="mt-4 inline-block text-teal-500 hover:underline"
+              >Book Now &rarr;</a
+            >
+          </div>
+          <!-- Event Card 3 -->
+          <div class="border rounded-lg p-6 hover:shadow-lg">
+            <p class="text-sm text-teal-500 font-semibold">
+              July 22, 2025 &bull; 6:30 PM
+            </p>
+            <h3 class="mt-2 text-xl font-medium">Partner Yoga & Breathwork</h3>
+            <p class="mt-2 text-gray-600">
+              Connect and breathe together in this partner-based yoga and
+              breathwork class.
+            </p>
+            <a href="#" class="mt-4 inline-block text-teal-500 hover:underline"
+              >Book Now &rarr;</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Custom Session CTA -->
+      <section class="py-16 bg-gray-50 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+          <h2 class="text-2xl font-semibold">Can't find a date that works?</h2>
+          <p class="mt-4 text-gray-600">
+            We also offer private and corporate workshops. Reach out to create a
+            tailored session.
+          </p>
+          <a
+            href="index.html#contact"
+            class="mt-6 inline-block bg-teal-500 text-white py-3 px-6 rounded-lg hover:bg-teal-600"
+            >Contact Us</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-200 py-12">
+      <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="font-semibold">Beyond The Breath</h3>
+          <p class="mt-2">© 2025 Beyond The Breath. All rights reserved.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold">Quick Links</h4>
+          <ul class="mt-2 space-y-2">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li>
+              <a href="index.html#services" class="hover:underline"
+                >Breathwork</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold">Connect</h4>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="hover:underline">Email Us</a></li>
+            <li><a href="#" class="hover:underline">Instagram</a></li>
+            <li><a href="#" class="hover:underline">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

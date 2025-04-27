@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beyond The Breath</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans antialiased text-gray-800">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/80 backdrop-blur z-50">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+      <img src="images/beyondabreath.png" alt="Beyond The Breath Logo" class="h-16 w-auto">
+
+        </a>
+
+        <nav class="space-x-6 hidden md:flex">
+          <a href="index.html" class="hover:text-teal-600">Home</a>
+          <a href="about.html" class="hover:text-teal-600">About</a>
+          <a href="services.html" class="hover:text-teal-600">Services</a>
+          <a href="events.html" class="hover:text-teal-600">Events</a>
+          <a href="contact.html" class="hover:text-teal-600">Contact</a>
+        </nav>
+        <button class="md:hidden" aria-label="Toggle menu">
+          <!-- Mobile menu icon (e.g., hamburger) -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="pt-20">
+      <!-- Hero -->
+      <section
+        class="relative h-screen bg-cover bg-center"
+        style="background-image: url('/images/hero-image.png')"
+      >
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 max-w-3xl mx-auto text-center py-32 px-6">
+          <h1 class="text-white text-4xl md:text-6xl font-bold">
+            Transform Through Conscious Breathing
+          </h1>
+          <p class="mt-4 text-gray-200">
+            Discover your inner peace with our signature breathwork sessions.
+          </p>
+          <a
+            href="#events"
+            class="mt-8 inline-block bg-teal-500 text-white py-3 px-6 rounded-lg hover:bg-teal-600"
+            >Join an Event</a
+          >
+        </div>
+      </section>
+
+      <!-- Approach -->
+      <section id="about" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+          <h2 class="text-3xl font-semibold">Our Approach</h2>
+          <p class="mt-4 text-lg text-gray-600">
+            We combine regulated breath, sound healing, and curated music to
+            help you release trauma, reduce anxiety, and boost vitality.
+          </p>
+          <a
+            href="#services"
+            class="mt-6 inline-block text-teal-500 hover:underline"
+            >Learn More about our Method →</a
+          >
+        </div>
+      </section>
+
+      <!-- Benefits -->
+      <section class="py-16 bg-gray-50">
+        <div
+          class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center"
+        >
+          <div>
+            <img
+              src="images/stress-icon.png"
+              alt="Stress Relief"
+              class="mx-auto h-16"
+            />
+            <h3 class="mt-4 text-xl font-medium">Stress Relief</h3>
+            <p class="mt-2 text-gray-600">
+              Let go of tension and calm your mind.
+            </p>
+          </div>
+          <div>
+            <img
+              src="images/focus-icon.png"
+              alt="Increased Focus"
+              class="mx-auto h-16"
+            />
+            <h3 class="mt-4 text-xl font-medium">Increased Focus</h3>
+            <p class="mt-2 text-gray-600">Enhance clarity and mental energy.</p>
+          </div>
+          <div>
+            <img
+              src="images/healing-icon.png"
+              alt="Emotional Healing"
+              class="mx-auto h-16"
+            />
+            <h3 class="mt-4 text-xl font-medium">Emotional Healing</h3>
+            <p class="mt-2 text-gray-600">
+              Release old patterns and feel lighter.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Events Preview -->
+      <section id="events" class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+          <h2 class="text-3xl font-semibold text-center">Upcoming Events</h2>
+          <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Event Card -->
+            <div class="border rounded-lg p-6 hover:shadow-lg">
+              <p class="text-sm text-teal-500 font-semibold">
+                May 10, 2025 • 7:00 PM
+              </p>
+              <h3 class="mt-2 text-xl font-medium">Full Moon Breathwork</h3>
+              <p class="mt-2 text-gray-600">
+                An immersive session under the full moon to release and renew.
+              </p>
+              <a
+                href="#"
+                class="mt-4 inline-block text-teal-500 hover:underline"
+                >Book Now →</a
+              >
+            </div>
+            <!-- Repeat cards as needed -->
+          </div>
+          <div class="mt-8 text-center">
+            <a href="#events" class="text-teal-500 hover:underline"
+              >View All Events</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="py-16 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+          <h2 class="text-3xl font-semibold">What Clients Say</h2>
+          <div class="mt-8 space-y-8">
+            <div class="max-w-2xl mx-auto">
+              <p class="italic">
+                “Beyond The Breath changed my life—I'm calmer, more focused, and
+                feel deeply connected to myself.”
+              </p>
+              <p class="mt-4 font-semibold">— Jane Doe</p>
+            </div>
+            <!-- Repeat as needed -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="py-16 bg-white text-center">
+        <h2 class="text-2xl font-semibold">Ready to Begin?</h2>
+        <p class="mt-4 text-gray-600">
+          Book your first session and step into a new world of well-being.
+        </p>
+        <a
+          href="#contact"
+          class="mt-6 inline-block bg-teal-500 text-white py-3 px-6 rounded-lg hover:bg-teal-600"
+          >Contact Us</a
+        >
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-gray-200 py-12">
+      <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="font-semibold">Beyond The Breath</h3>
+          <p class="mt-2">© 2025 Beyond The Breath. All rights reserved.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold">Quick Links</h4>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="hover:underline">Home</a></li>
+            <li><a href="#about" class="hover:underline">About</a></li>
+            <li><a href="#services" class="hover:underline">Breathwork</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold">Connect</h4>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="hover:underline">Email Us</a></li>
+            <li><a href="#" class="hover:underline">Instagram</a></li>
+            <li><a href="#" class="hover:underline">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

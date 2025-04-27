@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Beyond The Breath</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="services.css" />
+  </head>
+  <body class="font-sans antialiased text-gray-800">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/80 backdrop-blur z-50 shadow">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <img
+          src="images/beyondabreath.png"
+          alt="Beyond The Breath Logo"
+          class="h-16 w-auto"
+        />
+        <nav class="space-x-6 hidden md:flex">
+          <a href="index.html" class="hover:text-teal-600">Home</a>
+          <a href="about.html" class="hover:text-teal-600">About</a>
+          <a href="services.html" class="font-semibold text-teal-600"
+            >Breathwork</a
+          >
+          <a href="events.html" class="hover:text-teal-600">Events</a>
+          <a href="contact.html" class="hover:text-teal-600">Contact</a>
+        </nav>
+        <button class="md:hidden" aria-label="Toggle menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="pt-20">
+      <!-- Services Hero -->
+      <section class="bg-gray-50 py-16 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+          <h1 class="text-4xl md:text-5xl font-bold">
+            Our Breathwork Services
+          </h1>
+          <p class="mt-4 text-lg text-gray-600">
+            Whether you're seeking personal growth, stress relief, or team
+            cohesion, we have a session for you.
+          </p>
+        </div>
+      </section>
+
+      <!-- Services Listing -->
+      <section class="py-16 bg-white">
+        <div
+          class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          <!-- Service Card: Group Session -->
+          <div class="border rounded-lg p-6 hover:shadow-lg">
+            <h3 class="text-2xl font-semibold">Group Breathwork</h3>
+            <p class="mt-2 text-gray-600">
+              Join a small group (8–12 participants) for a guided breathwork
+              journey. Perfect for community building and shared transformation.
+            </p>
+            <p class="mt-4 text-xl font-bold text-teal-600">$40 per person</p>
+          </div>
+
+          <!-- Service Card: Private Session -->
+          <div class="border rounded-lg p-6 hover:shadow-lg">
+            <h3 class="text-2xl font-semibold">Private 1:1 Coaching</h3>
+            <p class="mt-2 text-gray-600">
+              Personalized, one-on-one sessions tailored to your unique
+              goals—stress relief, emotional healing, or performance
+              enhancement.
+            </p>
+            <p class="mt-4 text-xl font-bold text-teal-600">$120 per hour</p>
+          </div>
+
+          <!-- Service Card: Corporate Workshop -->
+          <div class="border rounded-lg p-6 hover:shadow-lg">
+            <h3 class="text-2xl font-semibold">Corporate Workshops</h3>
+            <p class="mt-2 text-gray-600">
+              Team-building and wellness workshops designed to reduce burnout,
+              boost focus, and foster collaboration in the workplace.
+            </p>
+            <p class="mt-4 text-xl font-bold text-teal-600">Custom pricing</p>
+          </div>
+
+          <!-- Service Card: Virtual Sessions -->
+          <div class="border rounded-lg p-6 hover:shadow-lg">
+            <h3 class="text-2xl font-semibold">Virtual Breathwork</h3>
+            <p class="mt-2 text-gray-600">
+              Live online sessions via Zoom—accessible from anywhere. Ideal for
+              remote teams or individuals on the go.
+            </p>
+            <p class="mt-4 text-xl font-bold text-teal-600">$30 per person</p>
+          </div>
+
+          <!-- Service Card: Retreat Packages -->
+          <div class="border rounded-lg p-6 hover:shadow-lg">
+            <h3 class="text-2xl font-semibold">Retreat Packages</h3>
+            <p class="mt-2 text-gray-600">
+              Multi-day immersive retreats that combine breathwork, sound
+              healing, and nature therapy for deep transformation.
+            </p>
+            <p class="mt-4 text-xl font-bold text-teal-600">Starting at $350</p>
+          </div>
+
+          <!-- Service Card: Custom Programs -->
+          <div class="border rounded-lg p-6 hover:shadow-lg">
+            <h3 class="text-2xl font-semibold">Custom Programs</h3>
+            <p class="mt-2 text-gray-600">
+              Work with us to design a bespoke program—perfect for special
+              events, wellness festivals, or long-term coaching series.
+            </p>
+            <p class="mt-4 text-xl font-bold text-teal-600">
+              Contact for quote
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA: Book a Service -->
+      <section class="py-16 bg-gray-50 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+          <h2 class="text-2xl font-semibold">Ready to Book?</h2>
+          <p class="mt-4 text-gray-600">
+            Select your preferred session above or reach out for a tailored
+            experience.
+          </p>
+          <a
+            href="index.html#contact"
+            class="mt-6 inline-block bg-teal-500 text-white py-3 px-6 rounded-lg hover:bg-teal-600"
+            >Contact Us</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-200 py-12">
+      <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="font-semibold">Beyond The Breath</h3>
+          <p class="mt-2">© 2025 Beyond The Breath. All rights reserved.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold">Quick Links</h4>
+          <ul class="mt-2 space-y-2">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li>
+              <a href="services.html" class="hover:underline">Services</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold">Connect</h4>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="hover:underline">Email Us</a></li>
+            <li><a href="#" class="hover:underline">Instagram</a></li>
+            <li><a href="#" class="hover:underline">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

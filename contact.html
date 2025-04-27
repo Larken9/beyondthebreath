@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Beyond The Breath</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body class="font-sans antialiased text-gray-800">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/80 backdrop-blur z-50 shadow">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <img
+          src="images/beyondabreath.png"
+          alt="Beyond The Breath Logo"
+          class="h-16 w-auto"
+        />
+        <nav class="space-x-6 hidden md:flex">
+          <a href="index.html" class="hover:text-teal-600">Home</a>
+          <a href="about.html" class="hover:text-teal-600">About</a>
+          <a href="services.html" class="hover:text-teal-600">Breathwork</a>
+          <a href="events.html" class="hover:text-teal-600">Events</a>
+          <a href="contact.html" class="font-semibold text-teal-600">Contact</a>
+        </nav>
+        <button class="md:hidden" aria-label="Toggle menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="pt-20">
+      <!-- Contact Hero -->
+      <section class="bg-gray-50 py-16 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+          <h1 class="text-4xl md:text-5xl font-bold">Get In Touch</h1>
+          <p class="mt-4 text-lg text-gray-600">
+            We’d love to hear from you—questions, custom requests, or booking
+            inquiries.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Info & Form -->
+      <section class="py-16 bg-white">
+        <div
+          class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12"
+        >
+          <!-- Info Panel -->
+          <div class="space-y-6">
+            <h2 class="text-2xl font-semibold">Contact Information</h2>
+            <div>
+              <h4 class="font-medium">Email</h4>
+              <p>
+                <a
+                  href="mailto:hello@beyondthebreath.com"
+                  class="text-teal-600 hover:underline"
+                  >hello@beyondthebreath.com</a
+                >
+              </p>
+            </div>
+            <div>
+              <h4 class="font-medium">Phone</h4>
+              <p>
+                <a href="tel:+1234567890" class="text-teal-600 hover:underline"
+                  >+1 (234) 567-890</a
+                >
+              </p>
+            </div>
+            <div>
+              <h4 class="font-medium">Address</h4>
+              <p>123 Breathway Avenue<br />Toronto, ON M1A 2B3</p>
+            </div>
+            <div>
+              <h4 class="font-medium">Hours</h4>
+              <p>
+                Mon–Fri: 9 AM – 6 PM<br />Sat: 10 AM – 2 PM<br />Sun: Closed
+              </p>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form action="#" method="POST" class="space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-medium">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500"
+              />
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="bg-teal-500 text-white py-3 px-6 rounded-md hover:bg-teal-600"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-200 py-12">
+      <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="font-semibold">Beyond The Breath</h3>
+          <p class="mt-2">© 2025 Beyond The Breath. All rights reserved.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold">Quick Links</h4>
+          <ul class="mt-2 space-y-2">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li>
+              <a href="services.html" class="hover:underline">Breathwork</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold">Connect</h4>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="hover:underline">Instagram</a></li>
+            <li><a href="#" class="hover:underline">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
